@@ -1,6 +1,6 @@
 import { useState } from "react";
-import type { ServiceCategory } from "./types";
-import { Input, InputWithoutLabel } from "../../components/ui/Input";
+// import type { ServiceCategory } from "./types";
+import { InputWithoutLabel } from "../../components/ui/Input";
 import { Textarea } from "../../components/ui/Textarea";
 import { Button } from "../../components/ui/Button";
 

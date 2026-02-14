@@ -2,7 +2,7 @@
 import React from 'react';
 import {  BrowserRouter as Router, useRoutes } from 'react-router-dom';
 import { routes } from './routes';
-import DownloadApp from './website/pages/home/DownloadApp';
+// import DownloadApp from './website/pages/home/DownloadApp';
 
 
 const AppRoutes: React.FC = () => {

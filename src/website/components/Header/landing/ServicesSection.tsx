@@ -102,13 +102,13 @@ const ServicesSection: React.FC = () => {
     };
   };
 
-  const handlePrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + services.length) % services.length);
-  };
+  // const handlePrev = () => {
+  //   setCurrentIndex((prev) => (prev - 1 + services.length) % services.length);
+  // };
 
-  const handleNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % services.length);
-  };
+  // const handleNext = () => {
+  //   setCurrentIndex((prev) => (prev + 1) % services.length);
+  // };
 
   return (
     <section
