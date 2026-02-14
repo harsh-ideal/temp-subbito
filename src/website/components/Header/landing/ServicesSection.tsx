@@ -38,7 +38,7 @@ const ServicesSection: React.FC = () => {
       id: 6,
       title: 'Kitchen Cleaning',
       image: '/services/kitchencleaning.png',
-    },
+    }, 
     {
       id: 7,
       title: 'General Help',
