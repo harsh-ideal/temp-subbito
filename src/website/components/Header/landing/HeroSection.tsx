@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative  overflow-hidden">
       {/* Navigation */}
-      <nav className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12 py-6">
+      <nav className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12 py-2 mt-5 rounded-4xl bg-[#eaeaea] w-fit">
         <div className="flex items-center justify-between lg:justify-center">
           
           {/* Desktop Nav */}
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
       </nav>
 
       {/* Hero Content */}
-      <div className="max-w-[1440px] mx-auto px-6 md:px-8 lg:px-12 pt-10 pb-20">
+      <div className="max-w-[1440px] mx-auto px-6 md:px-8 lg:px-12 pt-3 pb-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left Content */}
@@ -96,22 +96,15 @@ const HeroSection: React.FC = () => {
   </div>
 
   {/* Bottom Left Decorative Image */}
-  <div className="absolute -bottom-10 -left-25 z-100 scale-150 hover:scale-155">
+  <div className="absolute -bottom-30 -left-50 z-100 scale-100 hover:scale-105">
     <img 
       src="/cartoon/box1.png" 
       alt="box1" 
-      className="w-40 object-contain"
+      className="w-80 object-contain"
     />
   </div>
 
-  {/* Top Right Decorative Image */}
-  <div className="absolute top-20 -right-22 z-100 scale-120 hover:sacle-125">
-    <img 
-      src="/cartoon/box2.png" 
-      alt="box2" 
-      className="w-36 object-contain"
-    />
-  </div>
+
 
   {/* Phones Container */}
   <div className="relative z-10 flex items-center justify-center">

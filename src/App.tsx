@@ -13,7 +13,7 @@ const AppRoutes: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <div className="font-montserrat bg-[#F3F4FF]">
+    <div className="font-montserrat bg-[#fbfbfb]">
       <Router>
         <AppRoutes />
         {/* <DownloadApp /> */}
