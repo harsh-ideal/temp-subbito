@@ -101,7 +101,7 @@ const HeroSection: React.FC = () => {
   </div>
 
   {/* Bottom Left Decorative Image */}
-  <div className="absolute -bottom-20 -left-40 z-100 scale-100 hover:scale-105">
+  <div className="absolute -bottom-25 -left-55 z-100 scale-100 hover:scale-105">
     <img 
       src="/cartoon/box1.png" 
       alt="box1" 
@@ -112,14 +112,14 @@ const HeroSection: React.FC = () => {
 
 
   {/* Phones Container */}
-  <div className="relative z-10 flex items-center justify-center">
+  <div className="relative z-10 flex items-center -ml-20 -mb-10 justify-left">
     
     {/* Left Phone */}
-    <div className="relative transition-all duration-500 scale-80 hover:scale-85 hover:-rotate-3">
+    <div className="relative transition-all duration-500 scale-90 hover:scale-85 hover:-rotate-3">
       <div className="bg-black rounded-[3rem] p-2 shadow-2xl w-72 h-[580px]">
         <div className="bg-white rounded-[2.5rem] w-full h-full overflow-hidden">
           <img
-            src="/mobileScreen/serviceselection.jpeg"
+            src="/mobileScreen/services.png"
             alt="Service Screen"
             className="w-full h-full object-cover"
           />
@@ -128,11 +128,11 @@ const HeroSection: React.FC = () => {
     </div>
 
     {/* Right Phone */}
-    <div className="relative -ml-25  mb-20 -z-10 rotate-6 transition-all scale-80 duration-500 hover:scale-85 hover:rotate-2 hover:z-10">
+    <div className="relative -ml-25  mb-20 -z-10 rotate-6 transition-all scale-90 duration-500 hover:scale-85 hover:rotate-2 hover:z-10">
       <div className="bg-black rounded-[3rem] p-2 shadow-2xl w-72 h-[580px]">
         <div className="bg-white rounded-[2.5rem] w-full h-full overflow-hidden">
           <img
-            src="/mobileScreen/paymentsuccess.jpeg"
+            src="/mobileScreen/paymentSuccess.png"
             alt="Payment Screen"
             className="w-full h-full object-cover"
           />

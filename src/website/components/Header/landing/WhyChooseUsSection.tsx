@@ -124,7 +124,7 @@ const WhyChooseUsSection: React.FC = () => {
         </div>
 
         {/* Quote + Image */}
-        <div className="relative max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 mt-20">
+        <div className="relative max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 mt-10">
 
           <div className="max-w-2xl text-center mx-auto lg:text-left">
             <p className="text-gray-800 text-xl font-medium">
@@ -137,11 +137,11 @@ const WhyChooseUsSection: React.FC = () => {
           
         </div>
       </div>
-     <div className="absolute bottom-0 right-0 hidden lg:block">
+     <div className="absolute -bottom-20 right-0 hidden lg:block">
             <img
               src="/cartoon/cook.png"
               alt="Subbito Helper"
-              className="w-80 object-contain"
+              className="w-85 object-contain"
             />
           </div>
 

@@ -14,19 +14,19 @@ const HowItWorksSection: React.FC = () => {
       stepNumber: "1st Step",
       title: "Create Account",
       description: "Fill required details",
-      phoneImage: "/mobileScreen/createaccount.jpeg",
+      phoneImage: "/mobileScreen/login.png",
     },
     {
       stepNumber: "2nd Step",
       title: "Choose Service",
       description: "According to your need",
-      phoneImage: "/mobileScreen/serviceselection.jpeg",
+      phoneImage: "/mobileScreen/services.png",
     },
     {
       stepNumber: "3rd Step",
       title: "Pay for Booking",
       description: "According to slot/date",
-      phoneImage: "/mobileScreen/payment.jpeg",
+      phoneImage: "/mobileScreen/payment.png",
     },
   ];
 
@@ -57,7 +57,7 @@ const HowItWorksSection: React.FC = () => {
                 <div className="bg-gradient-to-br from-[#2f0f57] via-[#3d176b] to-[#4c1d95] rounded-[2.5rem] p-6 shadow-xl">
                   
                   {/* Info Box */}
-                  <div className="bg-white rounded-2xl p-5 mb-6 shadow-md">
+                  <div className="bg-white rounded-2xl p-5 mb-6 text-center shadow-md">
                     <h3 className="text-[#2f0f57] font-bold text-xl mb-2">
                       {step.stepNumber}
                     </h3>

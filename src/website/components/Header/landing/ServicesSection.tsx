@@ -92,7 +92,7 @@ const ServicesSection: React.FC = () => {
                   {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" /> */}
                 </div>
 
-                <div className="p-6 text-center bg-gradient-to-b from-white to-purple-50">
+                <div className="p-6 text-center ">
                   <h3 className="text-2xl font-bold text-[#2f0f57]">
                     {service.title}
                   </h3>
@@ -107,7 +107,7 @@ const ServicesSection: React.FC = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white rounded-3xl shadow-md overflow-hidden"
+              className=" rounded-3xl shadow-md overflow-hidden"
             >
               <div className="h-56 overflow-hidden">
                 <img
@@ -116,7 +116,7 @@ const ServicesSection: React.FC = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-4 text-center bg-gradient-to-b from-white to-purple-50">
+              <div className="p-4 text-center bg-gradient-to-b">
                 <h3 className="text-lg font-semibold text-[#2f0f57]">
                   {service.title}
                 </h3>

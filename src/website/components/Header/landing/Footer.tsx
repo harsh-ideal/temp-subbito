@@ -1,5 +1,6 @@
 // Footer.tsx
 import React, { useState } from "react";
+import { FiMail } from "react-icons/fi";
 
 const Footer: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
@@ -10,25 +11,22 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="relative  py-20">
+    <footer className="relative py-20">
       <div className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12">
 
         {/* Top Section */}
         <div className="flex flex-col items-center text-center space-y-8 pb-16 border-b border-gray-200">
 
-          {/* Illustration */}
           <img
             src="/cartoon/cleaner.png"
             alt="Subbito Helper"
             className="w-90 object-contain"
           />
 
-          {/* Tagline */}
           <p className="text-[#2f0f57] text-2xl md:text-3xl font-semibold">
             "Get house help anytime."
           </p>
 
-          {/* Store Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
               href="#"
@@ -55,26 +53,13 @@ const Footer: React.FC = () => {
             </a>
           </div>
 
-          {/* Email */}
           <div className="flex items-center gap-3 bg-gray-100 px-6 py-2 rounded-full">
-            <svg
-              className="w-5 h-5 text-[#2f0f57]"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8"
-              />
-            </svg>
+            <FiMail />
             <a
-              href="mailto:help@withsubbito.com"
+              href="mailto:help@subbito.com"
               className="text-gray-800 text-sm font-medium hover:text-[#2f0f57] transition-colors"
             >
-              help@withsubbito.com
+              help@subbito.com
             </a>
           </div>
         </div>
@@ -113,10 +98,10 @@ const Footer: React.FC = () => {
                 <li><a href="#" className="hover:text-[#2f0f57]">Careers</a></li>
                 <li>
                   <a
-                    href="mailto:careers@withsubbito.com"
+                    href="mailto:careers@subbito.com"
                     className="hover:text-[#2f0f57]"
                   >
-                    careers@withsubbito.com
+                    careers@subbito.com
                   </a>
                 </li>
                 <li>
@@ -134,17 +119,43 @@ const Footer: React.FC = () => {
               </h3>
 
               <div className="flex items-center gap-4 mb-6">
-                {["facebook", "linkedin", "instagram"].map((platform) => (
-                  <a
-                    key={platform}
-                    href="#"
-                    className="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center hover:border-[#2f0f57] hover:bg-[#2f0f57]/5 transition"
-                  >
-                    <span className="text-xs text-[#2f0f57] font-semibold">
-                      {platform[0].toUpperCase()}
-                    </span>
-                  </a>
-                ))}
+                
+                {/* Facebook */}
+                <a
+                  href="#"
+                  className="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center hover:border-[#2f0f57] hover:bg-[#2f0f57]/5 transition"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    alt="Facebook"
+                    className="w-full h-full"
+                  />
+                </a>
+
+                {/* LinkedIn */}
+                <a
+                  href="https://www.linkedin.com/company/subbito/"
+                  className="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center hover:border-[#2f0f57] hover:bg-[#2f0f57]/5 transition"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                    alt="LinkedIn"
+                    className="w-full h-full"
+                  />
+                </a>
+
+                {/* Instagram */}
+                <a
+                  href="https://www.instagram.com/withsubbito?igsh=bHdha3c1a3M1Z2N5"
+                  className="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center hover:border-[#2f0f57] hover:bg-[#2f0f57]/5 transition"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                    alt="Instagram"
+                    className="w-full h-full"
+                  />
+                </a>
+
               </div>
 
               <p className="text-gray-500 text-xs">
