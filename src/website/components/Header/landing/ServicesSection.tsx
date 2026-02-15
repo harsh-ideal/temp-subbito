@@ -66,7 +66,7 @@ const ServicesSection: React.FC = () => {
     >
       <div className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 bg-[linear-gradient(180deg,#6621BD_39.52%,#2F0F57_100%)] bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 bg-[linear-gradient(180deg,#6621BD_39.52%,#2F0F57_100%)] bg-clip-text text-transparent">
           Services We Provide
         </h2>
 

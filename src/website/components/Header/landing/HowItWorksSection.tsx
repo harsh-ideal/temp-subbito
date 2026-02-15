@@ -39,7 +39,7 @@ const HowItWorksSection: React.FC = () => {
         
         {/* Heading */}
         <div className="flex items-center justify-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-bold text-center bg-[linear-gradient(180deg,#6621BD_39.52%,#2F0F57_100%)] bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-bold text-center bg-[linear-gradient(180deg,#6621BD_39.52%,#2F0F57_100%)] bg-clip-text text-transparent">
             How it's Work
           </h2>
         </div>
