@@ -33,7 +33,7 @@ const HowItWorksSection: React.FC = () => {
   return (
     <section
       id="how-it-works"
-      className="relative  py-24 mt-16 overflow-hidden "
+      className="relative py-20 mt-6 overflow-hidden "
     >
       <div className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12">
         

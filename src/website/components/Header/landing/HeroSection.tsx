@@ -43,16 +43,21 @@ const HeroSection: React.FC = () => {
       </nav>
 
       {/* Hero Content */}
-      <div className="max-w-[1440px] mx-auto px-6 md:px-8 lg:px-12 pt-3 pb-20">
+      <div className="max-w-[1440px] mx-auto px-6 md:px-8 lg:px-12 pt-3 pb-14">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left Content */}
           <div className="space-y-6 text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-[2.8rem] font-bold bg-gradient-to-r from-[#2f0f57] via-[#2f0f57] to-purple-900 bg-clip-text text-transparent leading-tight">
-              Trusted House Help For
-              <br />
-              Everyday Living
-            </h1>
+            <h1
+  className="text-3xl md:text-4xl lg:text-[2.8rem] font-bold bg-gradient-to-b from-[#4b1a87] via-[#2f0f57] to-[#1d0836] bg-clip-text text-transparent leading-tight"
+   style={{
+    textShadow: "0 4px 12px rgba(47, 15, 87, 0.25)"
+  }}
+>
+  Trusted House Help For
+  <br />
+  Everyday Living
+</h1>
 
             <p className="text-base md:text-lg text-gray-800 max-w-xl mx-auto lg:mx-0">
               Empowering service proffesionals while provideing verified maid,
@@ -96,11 +101,11 @@ const HeroSection: React.FC = () => {
   </div>
 
   {/* Bottom Left Decorative Image */}
-  <div className="absolute -bottom-30 -left-50 z-100 scale-100 hover:scale-105">
+  <div className="absolute -bottom-20 -left-40 z-100 scale-100 hover:scale-105">
     <img 
       src="/cartoon/box1.png" 
       alt="box1" 
-      className="w-80 object-contain"
+      className="w-90 object-contain"
     />
   </div>
 
@@ -110,7 +115,7 @@ const HeroSection: React.FC = () => {
   <div className="relative z-10 flex items-center justify-center">
     
     {/* Left Phone */}
-    <div className="relative transition-all duration-500 hover:scale-105 hover:-rotate-3">
+    <div className="relative transition-all duration-500 scale-80 hover:scale-85 hover:-rotate-3">
       <div className="bg-black rounded-[3rem] p-2 shadow-2xl w-72 h-[580px]">
         <div className="bg-white rounded-[2.5rem] w-full h-full overflow-hidden">
           <img
@@ -123,7 +128,7 @@ const HeroSection: React.FC = () => {
     </div>
 
     {/* Right Phone */}
-    <div className="relative -ml-10 -z-10 rotate-6 transition-all duration-500 hover:scale-105 hover:rotate-2 hover:z-10">
+    <div className="relative -ml-25  mb-20 -z-10 rotate-6 transition-all scale-80 duration-500 hover:scale-85 hover:rotate-2 hover:z-10">
       <div className="bg-black rounded-[3rem] p-2 shadow-2xl w-72 h-[580px]">
         <div className="bg-white rounded-[2.5rem] w-full h-full overflow-hidden">
           <img

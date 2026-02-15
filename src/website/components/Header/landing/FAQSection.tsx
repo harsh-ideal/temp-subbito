@@ -74,7 +74,7 @@ const FAQSection: React.FC = () => {
   return (
     <section
       id="faqs"
-      className="relative  py-24 mt-16 "
+      className="relative  py-20 mt-8"
     >
       <div className="max-w-[950px] mx-auto px-6 md:px-8">
 

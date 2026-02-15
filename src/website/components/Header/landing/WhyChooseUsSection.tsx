@@ -68,7 +68,7 @@ const WhyChooseUsSection: React.FC = () => {
   return (
     <section
       id="why-us"
-      className="relative py-24 mt-16 overflow-hidden"
+      className="relative py-20 mt-8  overflow-hidden"
     >
       <div className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12">
 
@@ -126,7 +126,7 @@ const WhyChooseUsSection: React.FC = () => {
         {/* Quote + Image */}
         <div className="relative max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 mt-20">
 
-          <div className="max-w-2xl text-center lg:text-left">
+          <div className="max-w-2xl text-center mx-auto lg:text-left">
             <p className="text-gray-800 text-xl font-medium">
               "Book trained, verified professionals for cleaning,
               <br />

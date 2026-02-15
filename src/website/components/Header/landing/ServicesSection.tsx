@@ -62,7 +62,7 @@ const ServicesSection: React.FC = () => {
   return (
     <section
       id="service"
-      className="relative py-24 mt-16 overflow-hidden"
+      className="relative py-20 mt-8 overflow-hidden"
     >
       <div className="max-w-[1280px] mx-auto px-6 md:px-8 lg:px-12">
         {/* Heading */}
@@ -80,7 +80,7 @@ const ServicesSection: React.FC = () => {
           {services.map((service, index) => (
             <div key={service.id} className="absolute" style={getCardStyle(index)}>
               <div
-                className="bg-white rounded-3xl shadow-xl overflow-hidden"
+                className="rounded-3xl shadow-lg overflow-hidden"
                 style={{ width: "320px", height: "460px" }}
               >
                 <div className="relative h-[360px] overflow-hidden">
@@ -89,7 +89,7 @@ const ServicesSection: React.FC = () => {
                     alt={service.title}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" /> */}
                 </div>
 
                 <div className="p-6 text-center bg-gradient-to-b from-white to-purple-50">
